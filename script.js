@@ -137,7 +137,7 @@ function writePassword () {
   }
 
   if (allowedCharacterTypes.length === 0) {
-    alert('Ayo fuck you bitch')
+    alert('Please select the option of characters')
     return
   }
 
