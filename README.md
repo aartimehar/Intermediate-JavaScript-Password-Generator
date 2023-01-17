@@ -24,6 +24,8 @@ A big thank you to the whole team of Bootcamp and my Instructor Neteyana Blake f
 
 ## Github repositary URL
 
+https://github.com/aartimehar/Intermediate-JavaScript-Password-Generator
+
 ## License
 
 Refer to Repositary
