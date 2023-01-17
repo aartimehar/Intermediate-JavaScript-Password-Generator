@@ -16,11 +16,15 @@ A password generator app is a tool that creates random, secure passwords for use
 
 ## Screenshot
 
+![Screenshot 2023-01-17 193840](https://user-images.githubusercontent.com/113493756/212995422-44d4c042-91d8-4796-99ce-eaa3d143679e.png)
+
 ## Credits
 
 A big thank you to the whole team of Bootcamp and my Instructor Neteyana Blake for guiding us to the path of front end development. I'm thankful to Edx & University of Birmingham & to all education groups who have contributed to make this bootcamp successful and dream comee true for learners just like me.
 
 ## Live URL
+
+https://aartimehar.github.io/Intermediate-JavaScript-Password-Generator/
 
 ## Github repositary URL
 
