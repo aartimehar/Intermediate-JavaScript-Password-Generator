@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Password Generator</h1>
+      </header>
+      <div class="card">
+        <div class="card-header">
+          <h2>Generate a Password</h2>
+        </div>
+        <div class="card-body">
+          <textarea
+            readonly
+            id="password"
+            placeholder="Your Secure Password"
+            aria-label="Generated Password"></textarea>
+        </div>
+        <div class="card-footer">
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              margin-top: 10px;
+            ">
+            <div
+              id="characterTypes"
+              style="display: flex; justify-content: left">
+              <div>
+                <input
+                  type="checkbox"
+                  id="lowercase"
+                  name="lowercase"
+                  value="lowercase" />
+                <label for="lowercase"> Lowercase</label><br />
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  id="uppercase"
+                  name="uppercase"
+                  value="uppercase" />
+                <label for="uppercase"> Uppercase</label><br />
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  id="numeric"
+                  name="numeric"
+                  value="numeric" />
+                <label for="numeric">Numeric</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  id="special"
+                  name="special"
+                  value="special" />
+                <label for="special">Special characters</label>
+              </div>
+            </div>
+            <button id="generate" class="btn">Generate Password</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
